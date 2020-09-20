@@ -37,7 +37,7 @@
 
 	var carousel = function() {
 		$('.carousel-testimony').owlCarousel({
-			autoplay: true,
+			autoplay: false,
 			autoHeight: true,
 			center: true,
 			loop: true,
