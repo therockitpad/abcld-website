@@ -5540,7 +5540,8 @@ button.bg-dark:focus {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important; }
+  display: flex !important;
+  margin-left: 50px; }
 
 .d-inline-flex {
   display: -webkit-inline-box !important;
@@ -8324,6 +8325,7 @@ h1, h2, h3, h4, h5,
       outline: none !important; }
   .ftco-navbar-light.scrolled {
     position: fixed;
+    border-bottom: none;
     right: 0;
     left: 0;
     top: 0;
@@ -8482,6 +8484,10 @@ h1, h2, h3, h4, h5,
 @media (min-width: 992px) {
   .ftco-intro {
     margin-top: -200px; } }
+
+.services {
+  background-color: #060A47;
+}
 
 .ftco-intro .services-1 {
   background: #323edd;
@@ -8701,7 +8707,7 @@ h1, h2, h3, h4, h5,
     transform: scale(1); }
 
 .services {
-  background: #323edd;
+  background: #060A47;
   padding: 20px;
   position: relative;
   -moz-transition: all 0.3s ease;
@@ -8763,7 +8769,7 @@ h1, h2, h3, h4, h5,
       font-weight: 700;
       color: #fff; }
   .services:hover {
-    background: #ffa41b; }
+    background: darkgreen; }
     .services:hover:before, .services:hover:after {
       height: 30px; }
     .services:hover .line:before, .services:hover .line:after {
@@ -8916,7 +8922,7 @@ textarea.form-control {
 
 .ftco-section {
   padding: 7em 0;
-  background-color: #515968;
+  background-color: #37393b;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
