@@ -3426,6 +3426,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
+  
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3443,7 +3444,7 @@ input[type="button"].btn-block {
   .navbar > .container-fluid {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: contents;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-align: center;
@@ -3481,6 +3482,7 @@ input[type="button"].btn-block {
   .navbar-nav .dropdown-menu {
     position: static;
     float: none; }
+
 
 .navbar-text {
   display: inline-block;
@@ -8200,14 +8202,15 @@ h1, h2, h3, h4, h5,
 
 .ftco-navbar-light {
   background: transparent !important;
+  border-bottom: 1px solid;
   position: absolute;
-  top: 60px;
+  top: 2px;
   left: 0;
   right: 0;
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: transparent !important;
       position: relative;
       top: 0;
       padding-top: 0;
@@ -8217,7 +8220,7 @@ h1, h2, h3, h4, h5,
     margin: 0 auto; }
     @media (min-width: 992px) {
       .ftco-navbar-light .container {
-        background: #fff;
+        background: transparent;
         border-radius: 4px; } }
   .ftco-navbar-light .navbar-brand {
     color: #323edd;
@@ -8239,12 +8242,12 @@ h1, h2, h3, h4, h5,
       padding-bottom: 20px;
       margin-right: 0; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 15px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    font-size: 13px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #000000;
+    color: #fff;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:focus {
@@ -8325,7 +8328,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #fff !important;
+    background: #060a24 !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0; }
@@ -8373,7 +8376,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 1rem !important;
       padding-bottom: 1rem !important;
-      color: #000000 !important; }
+      color: #fff !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #323edd !important; }
     .ftco-navbar-light.scrolled.awake {
@@ -8913,6 +8916,7 @@ textarea.form-control {
 
 .ftco-section {
   padding: 7em 0;
+  background-color: #515968;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
