@@ -543,7 +543,8 @@ pre {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 41.66667%;
   flex: 0 0 41.66667%;
-  max-width: 41.66667%; }
+  max-width: 41.66667%;
+padding-left: 4rem; }
 
 .col-6 {
   -webkit-box-flex: 0;
@@ -2114,7 +2115,8 @@ fieldset:disabled a.btn {
   .show > .btn-secondary.dropdown-toggle {
     color: #fff;
     background-color: #545b62;
-    border-color: #4e555b; }
+    border-color: #4e555b;
+  font-size: 35px; }
     .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-secondary.dropdown-toggle:focus {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
@@ -6635,7 +6637,8 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 1.5rem !important;
+ }
 
 .ml-4,
 .mx-4 {
@@ -7929,7 +7932,8 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center !important; 
+  padding-right: 0px;}
 
 @media (min-width: 576px) {
   .text-sm-left {
