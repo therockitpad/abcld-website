@@ -7932,8 +7932,8 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
-  text-align: right !important; 
-padding-right: 0px;}
+  text-align: center !important; 
+  padding-right: 0px;}
 
 @media (min-width: 576px) {
   .text-sm-left {
