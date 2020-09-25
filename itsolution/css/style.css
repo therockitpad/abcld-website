@@ -5329,6 +5329,16 @@ a.close.disabled {
   opacity: 0;
   -webkit-animation: spinner-grow .75s linear infinite;
   animation: spinner-grow .75s linear infinite; }
+.FAQ-box{
+  border:2px ;
+  border-radius: 10px;
+  background-color: #323edd;
+  max-width: 75%;
+  height: 50px;
+ padding: 10px ;
+ text-align: center;
+  
+}
 
 .spinner-grow-sm {
   width: 1rem;
