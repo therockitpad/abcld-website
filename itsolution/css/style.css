@@ -5339,6 +5339,13 @@ a.close.disabled {
  text-align: center;
   
 }
+.section-3 {
+  margin-top: 10rem; 
+  background-color: #060A47; 
+  height: 200px; 
+  width: 70%;
+  padding: 2rem;
+}
 
 .spinner-grow-sm {
   width: 1rem;
