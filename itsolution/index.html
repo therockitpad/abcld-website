@@ -307,7 +307,7 @@
 							<!-- <div class="overlay"></div> -->
 							<div class="text" style="color: white;">
 								<div class="line"></div>
-								<p class="mb-4">"We have used Alpha Business Communications for our IT business services 
+								<p class="mb-4">"We have used Alpha Business Communications for our IT business services
 									for years now and we have not been disappointed! When we needed a managed IT solution, ABC was there for us."</p>
 									<br />
 								<p class="name">Jeffery</p>
@@ -320,7 +320,7 @@
 							<!-- <div class="overlay"></div> -->
 							<div class="text" style="color: white;">
 								<div class="line"></div>
-								<p class="mb-4">"ABC helped to develop a simple and well structured hosting option for our company. 
+								<p class="mb-4">"ABC helped to develop a simple and well structured hosting option for our company.
 									They bring ideas to the table they we had never thought of and that has really made the difference!"</p>
 								<br />
 								<p class="name">Mark</p>
@@ -333,7 +333,7 @@
 							<!-- <div class="overlay"></div> -->
 							<div class="text" style="color: white;">
 								<div class="line"></div>
-								<p class="mb-4" style="color: white;">"After a long and tenuous run with my former hosting, I discovered ABC. 
+								<p class="mb-4" style="color: white;">"After a long and tenuous run with my former hosting, I discovered ABC.
 									They transformed my website and my entire hosting package with ease. We recommend ABC to all of our clients!"</p>
 								<br />
 								<p class="name">Charles</p>
@@ -375,16 +375,16 @@
 			<div class="row">
 				<div class="col-md-6 half ftco-animate">
 					<h2 class="mb-4">Contact Us</h2>
-					<form action="#" class="appointment">
+					<form id="email-form" class="appointment">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Name">
+									<input name="name" type="text" class="form-control" placeholder="Your Name">
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Email">
+									<input name="email" type="text" class="form-control" placeholder="Email">
 								</div>
 							</div>
 							<div class="col-md-12">
@@ -392,10 +392,10 @@
 									<div class="form-field">
 										<div class="select-wrap">
 											<div class="icon"><span class="fa fa-chevron-down"></span></div>
-											<select name="" id="" class="form-control">
-												<option value="">Web Services</option>
-												<option value="">Managed IT Services</option>
-												<option value="">Merchant Account Services</option>
+											<select name="services" id="" class="form-control">
+												<option value="Web Services">Web Services</option>
+												<option value="Managed IT Services">Managed IT Services</option>
+												<option value="Merchant Account Services">Merchant Account Services</option>
 											</select>
 										</div>
 									</div>
@@ -403,13 +403,14 @@
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="7" class="form-control"
+									<textarea name="message" id="" cols="30" rows="7" class="form-control"
 										placeholder="Message"></textarea>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="submit" value="Send message" class="btn btn-primary py-3 px-4">
+									<!-- <input type="submit" value="Send message" class="btn btn-primary py-3 px-4"> -->
+									<button class="btn btn-primary py-3 px-4" id="submit-button">Send Message</button>
 								</div>
 							</div>
 						</div>
@@ -496,6 +497,7 @@
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
 				stroke="#F96D00" /></svg></div>
 
+	<script src="js/email.js"></script>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
