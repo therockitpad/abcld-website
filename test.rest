@@ -1,9 +1,0 @@
-POST http://localhost:3000/email
-Content-Type: application/json
-
-{
-    "from": "emailexpendable4@gmail.com",
-    "to": "archit.bhonsle@gmail.com",
-    "subject": "Test mail",
-    "text": "That was easy!"
-}
