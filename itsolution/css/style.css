@@ -326,7 +326,7 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 500; }
+  font-weight: 300; }
 
 .display-1 {
   font-size: 6rem;
@@ -719,7 +719,7 @@ padding-left: 4rem; }
     -webkit-box-flex: 0;
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
-    max-width: 30%; }
+    max-width: 16.66667%; }
   .col-sm-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
@@ -3051,8 +3051,6 @@ input[type="button"].btn-block {
     content: "";
     background: no-repeat 50% / 50% 50%; }
 
-
-
 .custom-checkbox .custom-control-label::before {
   border-radius: 0.25rem; }
 
@@ -5331,29 +5329,6 @@ a.close.disabled {
   opacity: 0;
   -webkit-animation: spinner-grow .75s linear infinite;
   animation: spinner-grow .75s linear infinite; }
-.FAQ-box{
-  border:2px ;
-  border-radius: 10px;
-  background-color: #323edd;
-  max-width: 75%;
-  height: 50px;
- padding: 10px ;
- text-align: center;
-  
-}
-.section-3 {
-  margin-top: 10rem; 
-  margin-left: 9rem;
-  background-color: #060A47; 
-  height: 80%; 
-  width: 70%;
-  padding: 2rem;
-}
-
-.changes {
-font-style: italic;
-color: white;
- }
 
 .spinner-grow-sm {
   width: 1rem;
@@ -8281,7 +8256,7 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:focus {
-      color: rgb(2, 112, 2); }
+      color: #000000; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8444,7 +8419,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap {
       background-position: top center !important; } }
   .hero-wrap .overlay {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -8956,8 +8931,6 @@ textarea.form-control {
   @media (max-width: 767.98px) {
     .ftco-section {
       padding: 6em 0; } }
-
-     
 
 .ftco-no-pt {
   padding-top: 0 !important; }
