@@ -4012,6 +4012,19 @@ input[type="button"].btn-block {
   list-style: none;
   border-radius: 0.25rem; }
 
+.name {
+  color: green;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.name2 {
+  color: green;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+
 .page-link {
   position: relative;
   display: block;
