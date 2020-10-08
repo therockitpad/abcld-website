@@ -5545,6 +5545,19 @@ button.bg-dark:focus {
   display: flex !important;
   margin-left: 50px; }
 
+.FAQ-box {
+  background-color: #3851A3;
+  padding: 10px;
+  width: 70%;
+ }
+
+  .d-flex2 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  margin-left: 20px;  }
+
+
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -8744,7 +8757,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       left: 0; }
   .services:before, .services:after {
-    position: absolute;
+    position: ;
     content: '';
     width: 4px;
     height: 10px;
