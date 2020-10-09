@@ -4168,6 +4168,15 @@ input[type="button"].btn-block {
 
 }
 
+ #boxsection2 {
+  
+  background-color: rgba(6, 10, 71, 0.7);
+  font-weight: 450;
+  padding: 20px;
+  
+
+ }   
+
 .badge-warning {
   color: #212529;
   background-color: #ffc107; }
