@@ -4160,6 +4160,14 @@ input[type="button"].btn-block {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }
 
+#boxsection {
+  margin-top: 11rem;
+  background-color: rgba(6, 10, 71, 0.7);
+  padding: 20px;
+  margin-left: 5%;
+
+}
+
 .badge-warning {
   color: #212529;
   background-color: #ffc107; }
