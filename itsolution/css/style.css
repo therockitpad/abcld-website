@@ -489,7 +489,7 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-1, .col-2, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
@@ -499,6 +499,7 @@ pre {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px; }
+
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -2114,8 +2115,8 @@ fieldset:disabled a.btn {
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #545b62;
-    border-color: #4e555b;
+    background-color:rgba(92, 100, 107, 0.7);
+    border-color: white;
   font-size: 35px; }
     .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-secondary.dropdown-toggle:focus {
@@ -4158,6 +4159,23 @@ input[type="button"].btn-block {
     outline: 0;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }
+
+#boxsection {
+  margin-top: 11rem;
+  background-color: rgba(6, 10, 71, 0.7);
+  padding: 20px;
+  margin-left: 5%;
+
+}
+
+ #boxsection2 {
+  
+  background-color: rgba(6, 10, 71, 0.7);
+  font-weight: 450;
+  padding: 20px;
+  
+
+ }   
 
 .badge-warning {
   color: #212529;
@@ -8269,7 +8287,7 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:focus {
-      color: #000000; }
+      color: #008000; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8451,7 +8469,7 @@ h1, h2, h3, h4, h5,
       height: 600px; }
 
 .slider-text h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: #fff;
   line-height: 1.2;
   font-weight: 700; }
@@ -8939,7 +8957,7 @@ textarea.form-control {
 
 .ftco-section {
   padding: 5em 0;
-  background-color: #37393b;
+  background-color: #00000A;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
