@@ -23,10 +23,19 @@
 </head>
 
 <body>
-
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<style>
+		@media screen and (max-width: 980px) {
+			#ftco-navbar {
+				background-color: #060a24 !important;
+			}
+			#navbar-img {
+				content:url("./images/abc_logo.png")
+			}
+		}
+	</style>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light p-2	" id="ftco-navbar">
 		<div class="container">
-			<img class="img-fluid" src="./images/abc_logo.png">
+			<img class="img-fluid" src="./images/abc_logo1.png" id="navbar-img">
 			<!-- <a class="navbar-brand" href="#">ABCD</a> -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
