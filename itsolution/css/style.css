@@ -4160,6 +4160,12 @@ input[type="button"].btn-block {
   margin-bottom: 0;
 }
 
+#boxindex3 {
+  background-color: #060A47;
+  margin: auto;
+  padding: 2rem;
+}
+
 .custom-file-input {
   position: relative;
   z-index: 2;
