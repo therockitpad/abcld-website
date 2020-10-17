@@ -23,29 +23,38 @@
 </head>
 
 <body>
-
-	<nav class="navbar navbar-expand navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<style>
+		@media screen and (max-width: 980px) {
+			#ftco-navbar {
+				background-color: #060a24 !important;
+			}
+			#navbar-img {
+				content:url("./images/abc_logo.png")
+			}
+		}
+	</style>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light p-2	" id="ftco-navbar">
 		<div class="container">
-			<img src="./images/abc_logo.png">
+			<img class="img-fluid" src="./images/abc_logo1.png" id="navbar-img">
+			<!-- <a class="navbar-brand" href="#">ABCD</a> -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span>
+				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
 					<li class="nav-item"><a href="manageIt.html" class="nav-link">MANAGED IT SERVICES</a></li>
 					<li class="nav-item"><a href="webservices.html" class="nav-link">WEB SERVICES|MARKETING</a></li>
 					<li class="nav-item"><a href="merchacc.html" class="nav-link">MERCHANT ACCOUNT SERVICES</a></li>
 					<!-- <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li> -->
-					<!-- <li class="nav-item"><a href="about.html" class="nav-link">ABOUT ABC</a></li> -->
+					<li class="nav-item"><a href="#about-us" class="nav-link">ABOUT ABC</a></li>
 					<li class="nav-item"><a href="#contact-us" class="nav-link">CONTACT</a></li>
-
 				</ul>
 			</div>
 		</div>
 	</nav>
+
 	<!-- END nav -->
 
 	<div class="hero-wrap js-fullheight" style="background-image: url(images/cover-home.jpg); background-size: cover; "
@@ -82,7 +91,14 @@
 		</div>
 	</section> -->
 
-	<section class="ftco-section">
+	<style>
+		@media screen and (max-width: 750px) {
+			#web-services .d-flex {
+				margin-left: 0;
+			}
+		}
+	</style>
+	<section id="web-services" class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center pb-5">
 				<div class="col-lg-10 heading-section text-align:left ftco-animate">
@@ -98,10 +114,9 @@
 			</div>
 			<div class="container">
 
-				<div class="row no-gutters justify-content-center" style="margin-right: 5%;">
+				<div class="row no-gutters justify-content-center">
 					<div class="col-lg-3 d-flex align-self-center ftco-animate">
 						<div class="media block-6 services d-block" >
-
 							<div class="icon"><span class="flaticon-web-programming"></span></div>
 							<div class="media-body">
 								<h3 class="heading mb-3">Social Media</h3>
@@ -111,7 +126,6 @@
 					</div>
 					<div class="col-lg-3 d-flex align-self-stretch ftco-animate">
 						<div class="media block-6 services d-block">
-
 							<div class="icon"><span class="flaticon-stats"></span></div>
 							<div class="media-body">
 								<h3 class="heading mb-3">SEO strategy</h3>
@@ -119,7 +133,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>

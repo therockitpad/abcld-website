@@ -1,0 +1,30 @@
+{
+  "name": "abcld-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bytes": "^3.1.0",
+    "content-type": "^1.0.4",
+    "depd": "^1.1.2",
+    "destroy": "^1.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therockitpad/abcld-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therockitpad/abcld-website/issues"
+  },
+  "homepage": "https://github.com/therockitpad/abcld-website#readme"
+}
