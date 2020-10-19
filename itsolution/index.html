@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>ITSolution - Free Bootstrap 4 Template by RockIT</title>
+	<title>ABC - IT Services</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -23,15 +23,24 @@
 </head>
 
 <body>
-
-	<nav class="navbar navbar-expand navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<style>
+		@media screen and (max-width: 980px) {
+			#ftco-navbar {
+				background-color: #060a24 !important;
+			}
+			#navbar-img {
+				content:url("./images/abc_logo-mobile.png")
+			}
+		}
+	</style>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light p-2	" id="ftco-navbar">
 		<div class="container">
-			<img src="./images/abc_logo.png">
+			<img class="img-fluid" src="./images/abc_logo-desktop.png" id="navbar-img">
+			<!-- <a class="navbar-brand" href="#">ABCD</a> -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span>
+				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
@@ -41,15 +50,25 @@
 					<!-- <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li> -->
 					<li class="nav-item"><a href="#about-us" class="nav-link">ABOUT ABC</a></li>
 					<li class="nav-item"><a href="#contact-us" class="nav-link">CONTACT</a></li>
-
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- END nav -->
+	<style>
+		@media screen and (max-width: 980px) {
+			.hero-wrap {
+				background-image: url('images/cover-mobile.jpg');
+			}
+		}
+		@media screen and (min-width: 980px) {
+			.hero-wrap {
+				background-image: url('images/cover.jpg');
+			}
+		}
+	</style>
 
-	<div class="hero-wrap js-fullheight" style="background-image: url('images/cover-img.jpg');"
-		data-stellar-background-ratio="0.5">
+	<div class="hero-wrap js-fullheight" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -71,9 +90,7 @@
 					<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">MANAGED I.T.
 						SERVICES
 						<br></h1>
-					<p>Reliable communications is essential to your success. Whether you're looking to relocate your
-						existing telephone equipment,
-						or upgrade your current telecom systems we manage it all for you.
+					<p>A Simple solution. Replace your internal computer department along with most of the associated costs.
 					</p>
 					<!-- <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a></p> -->
 				</div>
@@ -87,14 +104,12 @@
 					<div class="row">
 						<div class="col-md-7">
 							<p class="mb-4 pl-md-2" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-								REMOTE AND ONSITE SERVICES</p>
+								TAKE YOUR BRAND TO THE NEXT LEVEL</p>
 						</div>
 					</div>
 					<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">WEB SERVICES | MARKETING
 						<br></h1>
-					<p>Reliable communications is essential to your success. Whether you're looking to relocate your
-						existing telephone equipment,
-						or upgrade your current telecom systems we manage it all for you.
+					<p>Having ABC in your corner is like having your own Marketing agency. Our experts will build and market your site.
 					</p>
 					<!-- <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a></p> -->
 				</div>
@@ -108,14 +123,12 @@
 					<div class="row">
 						<div class="col-md-7">
 							<p class="mb-4 pl-md-2" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-								REMOTE AND ONSITE SERVICES</p>
+								INTEGRATED PAYMENT SYSTEMS</p>
 						</div>
 					</div>
 					<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">MERCHANT ACCOUNT SERVICES
 						<br></h1>
-					<p>Reliable communications is essential to your success. Whether you're looking to relocate your
-						existing telephone equipment,
-						or upgrade your current telecom systems we manage it all for you.
+					<p>Leading the industry with innovative and easy-to-use products that are supported by unmatched customer service.
 					</p>
 					<!-- <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a></p> -->
 				</div>
@@ -147,101 +160,114 @@
 		</div>
 	</section> -->
 
-	<section class="ftco-section">
+
+
+		<style>
+			@media screen and (max-width: 750px) {
+				#our-it-solution .d-flex {
+					margin-left: 0;
+				}
+			}
+		</style>
+		<section class="ftco-section" id="our-it-solutions">
 		<div class="container">
 			<div class="row justify-content-center pb-5">
 				<div class="col-lg-10 heading-section text-align:left ftco-animate">
 					<h2 class="mb-4 text-center" style="color:white;">OUR IT SOLUTIONS</h2>
-					<p style="color: white;"><b style="color: lightgreen;">Manage your technology,</b> The Way You
-						Want Your Business to Run. Technologyis constantly changing and re-directing
+					<p style="color: white;"><b style="color: lightgreen;">Manage your technology,</b> the way you
+						want your business to run. Technology is constantly changing and re-directing
 						the way we carry out day-to-day tasks.</p><br />
 					<p style="color: white;">Is your relationship with technology benefiting you? Instead of accepting
 						the limits of your current IT insfrastructure, shift your
-						mindset and approach to IT our comprehensive IT solutions that work around you. Check out our
-						report on 3 ways to make your
-						technology<b style="color:lightgreen;">work for you.</b>
+						mindset and approach to IT with our comprehensive IT solutions that work around you.<b style="color:lightgreen;"> work for you.</b>
 					</p>
 				</div>
 			</div>
-			<div class="container">
+					<div class="container">
+						<div class="row d-flex flex-xs-column flex-lg-row">
+							<div class="col-md-3 d-flex align-self-center ftco-animate">
+								<div class="media block-6 services d-block" style="text-align: center;" >
+									<div class="icon"><span class="flaticon-stats"></span></div>
+									<div class="media-body">
+										<a href="ManageIt.html"><h3 class="heading mb-3" style="font-size: 22px;">Managed IT Services</h3></a>
+										<p> Network Management, Hardware Repairs, and IT Infrastucture support. Your own personal IT department. </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+								<div class="media block-6 services d-block" style="text-align: center;">
 
-				<div class="row d-flex no-gutters">
-					<div class="col-md-3 d-flex align-self-center ftco-animate">
-						<div class="media block-6 services d-block" >
-							<div class="line" style="height: 346px; width: 152px;"></div>
-							<div class="icon"><span class="flaticon-web-programming"></span></div>
-							<div class="media-body">
-								<h3 class="heading mb-3">Managed IT Services</h3>
-								<p> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+									<div class="icon"><span class="flaticon-web-programming"></span></div>
+									<div class="media-body" style="font-size: 22px;">
+										<a href="webservices.html"><h3 class="heading mb-3" style="font-size: 22px;">Web Services | Marketing  </h3></a>
+										<p>Web design and development, digital marketing, SEO, and Social Media Management.</p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-3 d-flex align-self-stretch ftco-animate">
-						<div class="media block-6 services d-block">
-							<div class="line"></div>
-							<div class="icon"><span class="flaticon-stats"></span></div>
-							<div class="media-body">
-								<h3 class="heading mb-3">Web Services | Marketing </h3>
-								<p>A small river named Duden flows by their place and supplies.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 d-flex align-self-stretch ftco-animate">
-						<div class="media block-6 services d-block">
-							<div class="line"></div>
-							<div class="icon"><span class="flaticon-secure"></span></div>
-							<div class="media-body">
-								<h3 class="heading mb-3">Merchant Account Services</h3>
-								<p>A small river named Duden flows by their place and supplies.</p>
+							<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+								<div class="media block-6 services d-block" style="text-align: center;">
+									<div class="icon"><span class="flaticon-secure"></span></div>
+									<div class="media-body">
+										<a href="merchacc.html"><h3 class="heading mb-3">Merchant Account Services</h3></a>
+										<p>POS, electronic payments, bank card expertise, and operational service and support.</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
+			</section>
 
 
-	<section class="ftco-section ftco-no-pb testimony-section" style="background-image: url(images/services.jpg);">
+	<style>
+		@media screen and (max-width: 750px) {
+			#web-design-hosting .d-flex {
+				margin-left: 0;
+			}
+		}
+	</style>
+	<section id="web-design-hosting" class="ftco-section ftco-section img" style="background-image: url(images/services.jpg);">
+		<!-- <div class="overlay"></div> -->
 		<div class="container-fluid">
 			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+				<div class="col-md-7 text-center heading-section heading-section-white">
 					<h2 class="mb-4">WEB DESIGN &amp; HOSTING</h2>
 				</div>
 			</div>
-			<div class="row ftco-animate">
-				<div class="col-md-12 testimonial">
-					<div class="carousel-testimony owl-carousel ftco-owl">
-						<div class="item">
-							<div class="testimony-wrap d-flex align-content-center" style="background-color: #060A47;">
-								<!-- <div class="overlay"></div> -->
-								<div class="text">
-									<p class="mb-4" style="color: white;">Far far away, behind the word mountains, far
-										from the countries
-										Vokalia and Consonantia, there live the blind texts.</p>
-								</div>
+			<div class="container">
+				<div class="row d-flex flex-xs-column flex-lg-row">
+					<div class="col-md-3 d-flex align-self-center ftco-animate">
+						<div class="media block-6 services d-block" style="text-align: center;" >
+							<div class="media-body">
+								<p class="mb-4">
+									From content creation to customized visuals, we design beautiful 
+									and responsive websites that work on any type of device: desktop, 
+									laptop and mobile. We have one of the best web development teams 
+									in California and will work tirelessly to meet your needs.
+								</p>
 							</div>
 						</div>
-						<div class="item">
-							<div class="testimony-wrap d-flex align-items-stretch" style="background-color: #060A47;">
-								<!-- <div class="overlay"></div> -->
-								<div class="text">
-									<div class="line"></div>
-									<p class="mb-4" style="color: white;">Far far away, behind the word mountains, far
-										from the countries
-										Vokalia and Consonantia, there live the blind texts.</p>
-								</div>
+					</div>
+					<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+						<div class="media block-6 services d-block" style="text-align: center;">
+							<div class="media-body">
+								<p class="mb-4">
+									We specialize in bringing business online with innovative technologies
+									and world class design. Successful website design lies in its ability 
+									to combine rich content and innovative visions with intelligent 
+									applications. 
+								</p>
 							</div>
 						</div>
-						<div class="item">
-							<div class="testimony-wrap d-flex align-items-stretch" style="background-color: #060A47;">
-								<!-- <div class="overlay"></div> -->
-								<div class="text">
-									<div class="line"></div>
-									<p class="mb-4" style="color: white;">Far far away, behind the word mountains, far
-										from the countries
-										Vokalia and Consonantia, there live the blind texts.</p>
-								</div>
+					</div>
+					<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+						<div class="media block-6 services d-block" style="text-align: center;">
+							<div class="media-body">
+								<p class="mb-4">
+									We use state of the art technology along with our understanding of business 
+									processes to create a dynamic website that interacts with users and reflects 
+									the image of your organization.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -254,29 +280,34 @@
 		<br />
 	</section>
 
-
+	<!-- <style>
+		@media screen and (min-width: 1200) {
+			#about-us .flex .row {
+				flex-direction: column;
+			}
+		}
+	</style> -->
 	<section class="ftco-section" id="about-us">
 		<div class="flex">
-			<div class="row justify-content-center pb-5" style="padding: 4rem;">
-				<div class="col-4 heading-section text-right ftco-animate" style="padding: 0px;">
+			<div class="row justify-content-center p-4 pb-5" style="margin: 0">
+				<div class="col-xs-8 col-md-4 heading-section text-right ftco-animate" style="padding: 0px;">
 					<img src="./images/about.jpg" alt="image" style="width: 100%;">
 				</div>
-				<div class="col-4 " style="background: #060A47;">
-					<h2 class="p-2 mb-2 text-white">ABOUT US</h2>
-					<p class="text-justify text-white">
-						Alpha Business Communications and <br>
-						our partners provide businesses of <br>
-						all types with payment processing <br>
-						and point of sales systems. We use <br>
-						straightforward pricing, no contracts <br>
-						or obligations and fantastic <br>
-						customer service making us the last <br>
-						merchant services company you will <br>
-						ever need.</p>
+				<div class="col-xs-8 col-md-4" style="background: #060A47;">
+					<h2 class="p-2 mb-2 text-white text-center">ABOUT US</h2>
+					<p class="text-center text-white">
+						ABC is one of the premiere IT consulting companies 
+						in California. For over 20 years  we have provided 
+						a wide variety of Managed IT services including 
+						advanced network solutions, technical support as 
+						well as hardware repair and integration. We also 
+						have a talented team of website designers and 
+						developers who can build your brand online and can
+						implement marketing and point of sale systems to 
+						bring your business to new heights. Alpha Business 
+						Communications, IT as easy as ABC!</p>
 				</div>
 			</div>
-
-
 	</section>
 
 	<!-- <section class="ftco-section bg-light">
@@ -348,58 +379,60 @@
 		</div>
 	</section> -->
 
-
-	<section class="ftco-appointment ftco-section img" style="background-image: url(images/testimonial-img.jpg);">
-		<div class="row justify-content-center mb-5 pb-3">
+	<style>
+		@media screen and (max-width: 750px) {
+			#testimonial .d-flex {
+				margin-left: 0;
+			}
+		}
+	</style>
+	<section id="testimonial" class="ftco-appointment ftco-section img" style="background-image: url(images/testimonial-img.jpg);">
+		<div class="row justify-content-center mb-5 pb-3" style="margin: 0">
 			<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
 				<h2 class="mb-4">TESTIMONIALS</h2>
 			</div>
 		</div>
-		<div class="row ftco-animate">
-			<div class="col-md-12 testimonial">
-				<div class="carousel-testimony owl-carousel ftco-owl">
-					<div class="item">
-						<div class="testimony-wrap d-flex align-content-center" style="background-color: #060A47;">
-							<!-- <div class="overlay"></div> -->
-							<div class="text" style="color: white;">
-								<div class="line"></div>
-								<p class="mb-4">"We have used Alpha Business Communications for our IT business services
-									for years now and we have not been disappointed! When we needed a managed IT solution, ABC was there for us."</p>
-									<br />
-								<p class="name">Jeffery</p>
-								<span class="position">Ontario, CA</span>
+					<div class="container">
+						<div class="row d-flex flex-xs-column flex-lg-row">
+							<div class="col-md-3 d-flex align-self-center ftco-animate">
+								<div class="media block-6 services d-block" style="text-align: center;" >
+									<div class="media-body">
+										<!-- <p> Network Management, Hardware Repairs, and IT Infrastucture support. Your own personal IT department. </p> -->
+										<p class="mb-4">"We have used Alpha Business Communications for our IT business services
+											for years now and we have not been disappointed! When we needed a managed IT solution, ABC was there for us."</p>
+											<br />
+										<p>Jeffery</p>
+										<span>Ontario, CA</span>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap d-flex align-items-stretch" style="background-color: #060A47;">
-							<!-- <div class="overlay"></div> -->
-							<div class="text" style="color: white;">
-								<div class="line"></div>
-								<p class="mb-4">"ABC helped to develop a simple and well structured hosting option for our company.
-									They bring ideas to the table they we had never thought of and that has really made the difference!"</p>
-								<br />
-								<p class="name">Mark</p>
-								<span class="position">Apple Valley, CA</span>
+							<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+								<div class="media block-6 services d-block" style="text-align: center;">
+									<div class="media-body">
+										<!-- <p>Web design and development, digital marketing, SEO, and Social Media Management.</p> -->
+										<p class="mb-4">"ABC helped to develop a simple and well structured hosting option for our company.
+											They bring ideas to the table they we had never thought of and that has really made the difference!"</p>
+										<br />
+										<p>Mark</p>
+										<span>Apple Valley, CA</span>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap d-flex align-items-stretch" style="background-color: #060A47;">
-							<!-- <div class="overlay"></div> -->
-							<div class="text" style="color: white;">
-								<div class="line"></div>
-								<p class="mb-4" style="color: white;">"After a long and tenuous run with my former hosting, I discovered ABC.
-									They transformed my website and my entire hosting package with ease. We recommend ABC to all of our clients!"</p>
-								<br />
-								<p class="name">Charles</p>
-								<span class="position">Jurupa Valley, CA</span>
+							<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+								<div class="media block-6 services d-block" style="text-align: center;">
+									<div class="media-body">
+										<!-- <p>POS, electronic payments, bank card expertise, and operational service and support.</p> -->
+										<p class="mb-4">"After a long and tenuous run with my former hosting, I discovered ABC.
+											They transformed my website and my entire hosting package with ease. We recommend ABC to all of our clients!"</p>
+										<br />
+										<p>Charles</p>
+										<span>Jurupa Valley, CA</span>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
 		</div>
 		<br />
 		<br />
@@ -409,19 +442,21 @@
 
 
 	<section class="ftco-section">
-		<div class="container" style="background-image: url('images/cta-img.jpg') ;">
-			<h2 class="mb-4" style="color: white; padding: 4rem;">ACCEPT CREDIT CARDS</h2>
-			<!-- <div class="btn-group-toggle" data-toggle="buttons" > -->
-			<button class="btn btn-secondary active" style="margin-left: 4rem;"><a href="merchacc.html" class="nav-link">START NOW</a>
-			</button>
-			<!-- </div> -->
-			<div class="row justify-content-center pb-5">
-				<div class="col-lg-6 heading-section text-center ftco-animate">
+		<section class="ftco-section">
+			<div class="container" style="background-image: url('images/cta-img.jpg') ; padding: 50px;" >
+				<h2 class="mb-4" style="color: white; padding: 4rem; font-weight: bold; font-size: 45px; ">ACCEPT CREDIT CARDS</h2>
+				<!-- <div class="btn-group-toggle" data-toggle="buttons" > -->
+					<a href="merchacc.html"><button class="btn btn-secondary active" style="margin-left: 4rem;font-weight: bold;">
+					   START NOW
+					</button></a>
+				  <!-- </div> -->
+				<div class="row justify-content-center pb-5">
+					<div class="col-lg-6 heading-section text-center ftco-animate">
 
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
 
 	<section class="ftco-appointment ftco-section img" id="contact-us"  style="background-image: url(images/contact.jpg);">
@@ -481,8 +516,10 @@
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-footer-logo">ABC</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-							there live the blind texts.</p>
+						<p>Leading IT consultants in California. Can meet all of your 
+							technical needs for everything from web design and development, 
+							marketing, and SEO. We also have decades of experience working 
+							with the networking technologies, point of sale systems and web hosting.</p>
 						<ul class="ftco-footer-social list-unstyled mt-2">
 							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -494,27 +531,13 @@
 					<div class="ftco-footer-widget mb-4 ml-md-5">
 						<h2 class="ftco-heading-2">Explore</h2>
 						<ul class="list-unstyled">
-							<li><a href="#" class="py-2 d-block">About</a></li>
-							<li><a href="#" class="py-2 d-block">Contact</a></li>
-							<li><a href="#" class="py-2 d-block">What We Do</a></li>
-							<li><a href="#" class="py-2 d-block">Plans &amp; Pricing</a></li>
-							<li><a href="#" class="py-2 d-block">Call Us</a></li>
+							<li><a href="#about-us" class="py-2 d-block">About</a></li>
+							<li><a href="#our-it-solutions" class="py-2 d-block">Our IT Solutions</a></li>
+							<li><a href="#contact-us" class="py-2 d-block">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Legal</h2>
-						<ul class="list-unstyled">
-							<li><a href="#" class="py-2 d-block">Join Us</a></li>
-							<!-- <li><a href="#" class="py-2 d-block">Blog</a></li> -->
-							<li><a href="#" class="py-2 d-block">Privacy &amp; Policy</a></li>
-							<li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
-							<li><a href="#" class="py-2 d-block">Careers</a></li>
-							<li><a href="#" class="py-2 d-block">Contact</a></li>
-						</ul>
-					</div>
-				</div>
+				
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -532,15 +555,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="row pt-2 mt-2 text-center">
-			<div class="col-md-12">
+		<div class="pt-2 mt-2 text-center">
+			<div>
 				<p>
 					&copy; 2020 Alpha Business Communications All Rights Reserved
 				</p>
-
-
 			</div>
-
 		</div>
 	</footer>
 
