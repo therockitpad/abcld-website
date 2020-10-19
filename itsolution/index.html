@@ -55,9 +55,20 @@
 		</div>
 	</nav>
 	<!-- END nav -->
+	<style>
+		@media screen and (max-width: 980px) {
+			.hero-wrap {
+				background-image: url('images/cover-mobile.jpg');
+			}
+		}
+		@media screen and (min-width: 980px) {
+			.hero-wrap {
+				background-image: url('images/cover.jpg');
+			}
+		}
+	</style>
 
-	<div class="hero-wrap js-fullheight" style="background-image: url('images/cover-img.jpg');"
-		data-stellar-background-ratio="0.5">
+	<div class="hero-wrap js-fullheight" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
